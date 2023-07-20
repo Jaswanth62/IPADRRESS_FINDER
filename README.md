@@ -1,2 +1,4 @@
 # IPADRRESS_FINDER
-This main goal of this project is to reduce the searching time of IP address for a network router during the transmission of data packets. 
+Using the splay tree data structure, we construct a tree in which each node contains the IP address of a device connected to a particular network router. In our implementation, we have 11 devices connected to the router, and their IP addresses share a common part. When the router receives specific data packets from the internet, it needs to identify the correct device based on the IP address. To expedite this process, we employ splay trees for both searching and inserting IP addresses. The splay tree is known for its fast search operations, making it ideal for this scenario. Consequently, the router efficiently sends the data packet to the specified IP address when multiple devices are connected.
+
+In our code, we utilize the random function to input the data packets automatically, eliminating the need for manual input and seamlessly integrating the process within the network router.
